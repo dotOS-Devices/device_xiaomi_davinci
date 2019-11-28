@@ -43,4 +43,7 @@
     <!-- True if the display hardware only has brightness buckets rather than a full range of
          backlight values -->
     <bool name="config_displayBrightnessBucketsInDoze">true</bool>
+
+    <!-- Whether to send camera status intent -->
+    <bool name="config_sendCameraStatusIntent">true</bool>
 </resources>
