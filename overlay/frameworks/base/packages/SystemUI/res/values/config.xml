@@ -48,4 +48,8 @@
         <item>0</item>
         <item>0</item>
     </integer-array>
+
+    <!-- Whether the binned brightness sensor reports a value of 0 on proximity
+         near events -->
+    <bool name="doze_brightness_sensor_reports_proximity" translatable="false">false</bool>
 </resources>
