@@ -13,7 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="maintainer_name" translatable="false">Adi</string>
+    <string name="maintainer_name">Adi</string>
 
-   <string name="maintainer_telegram" translatable="false">https://t.me/adidavinci012</string>
+   <string name="maintainer_telegram">https://t.me/adidavinci012</string>
 </resources>
