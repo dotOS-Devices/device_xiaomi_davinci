@@ -44,8 +44,6 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libdng_sdk.vendor \
-    libgui_vendor \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
 # Fingerprint
