@@ -89,7 +89,7 @@ void vendor_load_properties()
             set_ro_product_prop(source, "device", "davinci");
             set_ro_product_prop(source, "model", "Redmi K20");
         }
-        property_override("ro.build.description", "davinci-user 10 QKQ1.190825.002 V11.0.4.0.QFJCNXM release-keys");
+        property_override("ro.build.description", "davinci-user 10 QKQ1.190825.002 V11.0.6.0.QFJCNXM release-keys");
     }
     else if (region == "INDIA")
     {
