@@ -26,7 +26,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_RAMDISK_OFFSET := 0x02000000
-TARGET_KERNEL_CONFIG := vendor/lineage_davinci_defconfig
+TARGET_KERNEL_CONFIG := vendor/davinci_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno618
