@@ -301,6 +301,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Product characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
