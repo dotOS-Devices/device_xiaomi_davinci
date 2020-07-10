@@ -594,5 +594,8 @@
 
     <!-- Whether device has a screen with a higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
+	
+	<!-- Show a custom view for FOD -->
+    <bool name="config_needCustomFODView">true</bool>
 
 </resources>
