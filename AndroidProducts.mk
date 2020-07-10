@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_davinci.mk
+    $(LOCAL_DIR)/potato_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_davinci-user \
-    aosp_davinci-userdebug \
-    aosp_davinci-eng
+    potato_davinci-user \
+    potato_davinci-userdebug \
+    potato_davinci-eng
