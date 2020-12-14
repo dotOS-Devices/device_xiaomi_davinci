@@ -26,7 +26,7 @@ $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
 # Gapps
 ifeq ($(WITH_GAPPS), true)
     $(call inherit-product, vendor/gapps/gapps.mk)
-    DOT_BUILD_TYPE:=GAPPS
+    DOT_BUILD_TYPE:=BETA_GAPPS
 endif
 
 # Additional native libraries
@@ -372,10 +372,6 @@ PRODUCT_COPY_FILES += \
 # Touchscreen
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # Uevent
 PRODUCT_COPY_FILES += \
