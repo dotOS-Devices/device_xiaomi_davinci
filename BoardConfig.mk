@@ -22,6 +22,10 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 # Inherit from proprietary files
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
 
+# GMS
+ifeq ($(WITH_GAPPS), true)
+    include vendor/gms/products/board.mk
+endif
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
