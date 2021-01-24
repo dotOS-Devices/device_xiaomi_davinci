@@ -25,6 +25,8 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_FOD_ANIMATIONS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 PRODUCT_NAME := dot_davinci
 PRODUCT_DEVICE := davinci
