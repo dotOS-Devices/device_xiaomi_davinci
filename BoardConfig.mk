@@ -25,10 +25,6 @@ include vendor/xiaomi/davinci/BoardConfigVendor.mk
 # ANXCamera
 include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
 
-# GMS
-ifeq ($(WITH_GAPPS), true)
-    include vendor/gms/products/board.mk
-endif
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a

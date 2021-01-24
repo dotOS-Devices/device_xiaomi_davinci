@@ -26,13 +26,6 @@ $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
 # ANXCamera
 $(call inherit-product, vendor/aeonax/ANXCamera/anx-vendor.mk)
 
-# Gapps
-ifeq ($(WITH_GAPPS), true)
-    WITH_GMS := true
-    $(call inherit-product, vendor/gms/products/gms.mk)
-    DOT_BUILD_TYPE := GAPPS
-endif
-
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
