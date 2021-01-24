@@ -23,6 +23,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
 
+# ANXCamera
+$(call inherit-product, vendor/aeonax/ANXCamera/anx-vendor.mk)
+
 # Gapps
 ifeq ($(WITH_GAPPS), true)
     WITH_GMS := true
@@ -301,10 +304,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
-
-# Prebuilts
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
 
 # Product characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
