@@ -1,14 +1,9 @@
-[
-  {
-    "repository": "kernel_xiaomi_davinci",
-    "target_path": "kernel/xiaomi/sm6150"
-  },
-  {
-    "repository": "proprietary_vendor_xiaomi_davinci",
-    "target_path": "vendor/xiaomi/davinci"
-  },
-  {
-    "repository": "android_vendor_aeonax_ANXCamera",
-    "target_path": "vendor/aeonax/ANXCamera"
-  }
+[{
+		"repository": "kernel_xiaomi_davinci",
+		"target_path": "kernel/xiaomi/sm6150"
+	},
+	{
+		"repository": "proprietary_vendor_xiaomi_davinci",
+		"target_path": "vendor/xiaomi/davinci"
+	}
 ]
