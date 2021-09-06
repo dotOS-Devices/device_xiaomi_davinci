@@ -15,9 +15,9 @@
 package org.lineageos.settings.display;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import org.lineageos.settings.MonetPreferenceActivity;
 
-public class DcDimmingSettingsActivity extends PreferenceActivity {
+public class DcDimmingSettingsActivity extends MonetPreferenceActivity {
 
     private static final String TAG_DCDIMMING = "dc_dimming";
 
