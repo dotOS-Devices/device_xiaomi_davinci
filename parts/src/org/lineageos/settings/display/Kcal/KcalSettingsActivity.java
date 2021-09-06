@@ -17,9 +17,9 @@
 package org.lineageos.settings.display;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import org.lineageos.settings.MonetPreferenceActivity;
 
-public class KcalSettingsActivity extends PreferenceActivity {
+public class KcalSettingsActivity extends MonetPreferenceActivity {
 
     private static final String TAG = "kcal_settings";
 

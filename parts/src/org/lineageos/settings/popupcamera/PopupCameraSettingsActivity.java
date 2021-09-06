@@ -17,9 +17,9 @@
 package org.lineageos.settings.popupcamera;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import org.lineageos.settings.MonetPreferenceActivity;
 
-public class PopupCameraSettingsActivity extends PreferenceActivity {
+public class PopupCameraSettingsActivity extends MonetPreferenceActivity {
     private static final String TAG_POPUPCAMERA = "popupcamera";
 
     @Override

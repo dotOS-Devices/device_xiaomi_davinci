@@ -1,9 +1,9 @@
 package org.lineageos.settings.vibrator;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import org.lineageos.settings.MonetPreferenceActivity;
 
-public class VibratorSettingsActivity extends PreferenceActivity {
+public class VibratorSettingsActivity extends MonetPreferenceActivity {
 
     private static final String TAG = "VibratorSettingsActivity";
 
